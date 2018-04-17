@@ -12,5 +12,3 @@ $connection = new LightifyConnection(clientId,clientSecret, redirect);
 $connection->generateToken($code);
 
 $connection->setDevice($_SESSION["deviceId"], $_SESSION["status"]);
-
-//"201409345-d01"
